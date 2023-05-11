@@ -28,6 +28,16 @@
                 "label": "Email",
                 "transcriptFields":[ "HME_Email__c" ],
                 "displayToAgent": true
+                },
+		{
+                "label": "CaseStatus",
+                "value": "Closed",
+                "displayToAgent": false
+                },
+		{
+                "label": "Subject",
+                "value": "Web Chat",
+                "displayToAgent": false
                 }
             ];
 
