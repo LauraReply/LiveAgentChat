@@ -38,7 +38,7 @@
                 "label": "Subject",
                 "value": "Web Chat",
                 "displayToAgent": false
-                }
+                },
 		{
                 "label": "CaseOrigin",
                 "value": "Web Chat",
