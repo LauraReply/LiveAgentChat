@@ -28,21 +28,6 @@
                 "label": "Email",
                 "transcriptFields":[ "HME_Email__c" ],
                 "displayToAgent": true
-                },
-		{
-                "label": "CaseStatus",
-                "value": "Closed",
-                "displayToAgent": false
-                },
-		{
-                "label": "Subject",
-                "value": "Web Chat",
-                "displayToAgent": false
-                },
-		{
-                "label": "CaseOrigin",
-                "value": "Web Chat",
-                "displayToAgent": false
                 }
             ];
 
@@ -69,7 +54,22 @@
                     "fieldName": "SuppliedEmail",
                     "isExactMatch": false,
                     "label": "Email"
-                    }
+                    },
+		{
+                "label": "CaseStatus",
+                "value": "Closed",
+                "displayToAgent": false
+                },
+		{
+                "label": "Subject",
+                "value": "Web Chat",
+                "displayToAgent": false
+                },
+		{
+                "label": "CaseOrigin",
+                "value": "Web Chat",
+                "displayToAgent": false
+                }
                 ],
             },
             ];
