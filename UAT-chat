@@ -28,35 +28,9 @@
                 "label": "Email",
                 "transcriptFields":[ "HME_Email__c" ],
                 "displayToAgent": true
-                }
-            ];
-
-            embedded_svc.settings.extraPrechatInfo = [{
-                "entityName": "Case",    
-                "entityFieldMaps": [
-                    {
-                    "doCreate": true,
-                    "doFind": false,
-                    "fieldName": "HME_Last_Name__c",
-                    "isExactMatch": false,
-                    "label": "Last Name"
-                    }, 
-                    {
-                    "doCreate": true,
-                    "doFind": false,
-                    "fieldName": "HME_First_Name__c",
-                    "isExactMatch": false,
-                    "label": "First Name"
-                    }, 
-                    {
-                    "doCreate": true,
-                    "doFind": false,
-                    "fieldName": "SuppliedEmail",
-                    "isExactMatch": false,
-                    "label": "Email"
-                    },
+                },
 		{
-                "label": "CaseStatus",
+                "label": "Status",
                 "value": "Closed",
                 "displayToAgent": false
                 },
@@ -66,10 +40,30 @@
                 "displayToAgent": false
                 },
 		{
-                "label": "CaseOrigin",
+                "label": "Origin",
                 "value": "Web Chat",
                 "displayToAgent": false
                 }
+            ];
+
+            embedded_svc.settings.extraPrechatInfo = [{
+                "entityName": "Case",    
+                "entityFieldMaps": [
+                    {
+                    "doCreate": true,
+                    "fieldName": "HME_Last_Name__c",
+                    "label": "Last Name"
+                    }, 
+                    {
+                    "doCreate": true,
+                    "fieldName": "HME_First_Name__c",
+                    "label": "First Name"
+                    }, 
+                    {
+                    "doCreate": true,
+                    "fieldName": "SuppliedEmail",
+                    "label": "Email"
+                    }
                 ],
             },
             ];
